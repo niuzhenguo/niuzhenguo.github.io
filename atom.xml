@@ -8,7 +8,7 @@ layout: nil
  <link href="https://niuzhenguo.github.io/atom.xml" rel="self"/>
  <link href="https://niuzhenguo.github.io/"/>
  <updated>{{ site.time | date_to_xmlschema }}</updated>
- <id>http://tom.preston-werner.com/</id>
+ <id>https://niuzhenguo.github.io/</id>
  <author>
    <name>Zhenguo Niu</name>
    <email>niu.zglinux@gmail.com</email>
@@ -19,7 +19,7 @@ layout: nil
    <title>{{ post.title }}</title>
    <link href="https://niuzhenguo.github.io{{ post.url }}"/>
    <updated>{{ post.date | date_to_xmlschema }}</updated>
-   <id>http://tom.preston-werner.com{{ post.id }}</id>
+   <id>https://niuzhenguo.github.io{{ post.id }}</id>
    <content type="html">{{ post.content | xml_escape }}</content>
  </entry>
  {% endfor %}
